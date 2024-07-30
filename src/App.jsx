@@ -24,18 +24,21 @@ function App() {
     <>
     <main className='bienvenida'>
     	<h1 className='nombre'>Fabricio Fuentes</h1>
-    	<img src={reactLogo} className='lenguaje' alt='React logo' />
-    	<img src={postgresLogo} className='lenguaje' alt='Postgres SQL logo' />
-    	<img src={nodeLogo} className='lenguaje' alt='NodeJS logo' />
-    	<img src={cppLogo} className='lenguaje' alt='C++ logo' />
-    	<img src={mongoLogo} className='lenguaje' alt='Mongo DB logo' />
-    	<img src={htmlLogo} className='lenguaje' alt='HTML logo' />
-    	<img src={cssLogo} className='lenguaje' alt='CSS logo' />
+		<section className='logos'>
+    		<img src={reactLogo} className='lenguaje' alt='React logo' />
+    		<img src={postgresLogo} className='lenguaje' alt='Postgres SQL logo' />
+	    	<img src={nodeLogo} className='lenguaje' alt='NodeJS logo' />
+    		<img src={cppLogo} className='lenguaje' alt='C++ logo' />
+    		<img src={mongoLogo} className='lenguaje' alt='Mongo DB logo' />
+	    	<img src={htmlLogo} className='lenguaje' alt='HTML logo' />
+		</section>
     </main>
     <section className='sobreMi'>
     	<img src={logo200} className='logo'/>
-    	<h2 className='titulo'>Sobre mí</h2>
-    	<p className='subTitulo'>Lorem ipsum odor amet, consectetuer adipiscing elit. Class rutrum maecenas ac leo habitant eu placerat. Venenatis eget egestas efficitur pellentesque fusce tristique nisl blandit. Laoreet vestibulum fames cursus placerat mus etiam curae dis. Bibendum porta congue venenatis mattis risus himenaeos. </p>
+    	<section>
+			<h2 className='titulo'>Sobre mí</h2>
+    		<p className='subTitulo'>Lorem ipsum odor amet, consectetuer adipiscing elit. Class rutrum maecenas ac leo habitant eu placerat. Venenatis eget egestas efficitur pellentesque fusce tristique nisl blandit. Laoreet vestibulum fames cursus placerat mus etiam curae dis. Bibendum porta congue venenatis mattis risus himenaeos. </p>
+		</section>
     </section>
     <section className='estudios'>
     	<section className='soft'>
