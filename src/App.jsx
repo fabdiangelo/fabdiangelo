@@ -45,30 +45,30 @@ function App() {
     		<img src={logo200} className='logo'/>
     		<h2 className='subTitulo'>Soft Skills</h2>
         	<ul className='lista'>
-        		<li>Per commodo mus lacinia</li>
-        		<li>Lorem ipsum dolor sit amet.</li>
-        		<li>dignissim porttitor ad potenti. </li>
-        		<li>Natoque nunc nunc nam varius </li>
-        		<li>ac netus. Convallis eleifend </li>
-        		<li>egestas, tellus ridiculus libero</li>
-        		<li>adipiscing parturient. Sodales </li>
+        		<li className='texto'>Per commodo mus lacinia</li>
+        		<li className='texto'>Lorem ipsum dolor sit amet.</li>
+        		<li className='texto'>dignissim porttitor ad potenti. </li>
+        		<li className='texto'>Natoque nunc nunc nam varius </li>
+        		<li className='texto'>ac netus. Convallis eleifend </li>
+        		<li className='texto'>egestas, tellus ridiculus libero</li>
+        		<li className='texto'>adipiscing parturient. Sodales </li>
         	</ul>
     	</section>
     	<section className='hard'>
         	<section className='fcc institucion'>
         		<img src={fccLogo} className='logoInsti'/>
         		<h2 className='subTitulo'>Free Code Camp</h2>
-        		<p>Eu tristique arcu in, litora porttitor per etiam. Dis vulputate netus a pretium arcu maximus augue diam! Duis parturient congue vestibulum nec mollis volutpat. Eu sodales hac porttitor interdum litora; aliquet orci gravida. Quisque vehicula platea primis vulputate venenatis dis. Nostra at ac nisl maximus velit. Bibendum convallis est vestibulum condimentum ipsum vivamus sempe</p>
+        		<p className='texto'>Eu tristique arcu in, litora porttitor per etiam. Dis vulputate netus a pretium arcu maximus augue diam! Duis parturient congue vestibulum nec mollis volutpat. Eu sodales hac porttitor interdum litora; aliquet orci gravida. Quisque vehicula platea primis vulputate venenatis dis. Nostra at ac nisl maximus velit. Bibendum convallis est vestibulum condimentum ipsum vivamus sempe</p>
         	</section>
-        	<section className='utec'>
+        	<section className='utec institucion'>
         		<img src={utecLogo} className='logoInsti'/>
         		<h2 className='subTitulo'>UTEC</h2>
-        		<p>Felis magna vivamus convallis dignissim libero ullamcorper proin tortor placerat. Dapibus felis platea; a vehicula elementum dapibus. Potenti suscipit cursus porttitor potenti facilisi himenaeos. Eros risus maximus vestibulum ridiculus metus elementum. Duis dui sagittis nibh maecenas eget interdum risus lectus laoreet. Lacus tristique torquent </p>
+        		<p className='texto'>Felis magna vivamus convallis dignissim libero ullamcorper proin tortor placerat. Dapibus felis platea; a vehicula elementum dapibus. Potenti suscipit cursus porttitor potenti facilisi himenaeos. Eros risus maximus vestibulum ridiculus metus elementum. Duis dui sagittis nibh maecenas eget interdum risus lectus laoreet. Lacus tristique torquent </p>
         	</section>
-        	<section className='jap'>
+        	<section className='jap institucion'>
         		<img src={japLogo} className='logoInsti'/>
         		<h2 className='subTitulo'>Jóvenes a Programar</h2>
-        		<p>Per commodo mus lacinia; dignissim porttitor ad potenti. Natoque nunc nunc nam varius ac netus. Convallis eleifend egestas, tellus ridiculus libero adipiscing parturient. Sodales cubilia purus nullam laoreet condimentum neque ligula. Aliquam vitae congue libero efficitur natoque nunc id euismod. Dictum felis natoque conubia, suspendisse praesent felis nibh eu nam. Nascetu</p>
+        		<p className='texto'>Per commodo mus lacinia; dignissim porttitor ad potenti. Natoque nunc nunc nam varius ac netus. Convallis eleifend egestas, tellus ridiculus libero adipiscing parturient. Sodales cubilia purus nullam laoreet condimentum neque ligula. Aliquam vitae congue libero efficitur natoque nunc id euismod. Dictum felis natoque conubia, suspendisse praesent felis nibh eu nam. Nascetu</p>
         	</section>
     	</section>
     </section>

@@ -28,7 +28,7 @@
   font-size: calc(100% + 7vw);
   overflow: hidden;
   margin-top: -10vh;
-  margin-bottom: 0;
+  margin-bottom: 40px;
   padding-bottom: 0;
   text-align: center;
 }
@@ -47,16 +47,18 @@
 }
 
 .bienvenida .logos .lenguaje{
-  min-width: 30px;
-  max-width: 80px;
+  min-width: 80px;
+  width: 8vw;
+  max-width: 120px;
 }
 
 .sobreMi{
+  min-height: 30vh;
   background: #EF626C;
   margin: 0;
   display: grid;
   grid-template-columns: 20vw 1fr;
-  padding: 2vh 10vw;
+  padding: 2.5vh 10vw;
   column-gap: calc(50px + 1vw);
   justify-items: center;
   align-items: center;
@@ -64,7 +66,7 @@
 
 .sobreMi .logo {
   min-width: 100px;
-  width: 20vw;
+  width: 18vw;
   max-width: 200px;
 }
 
@@ -73,6 +75,101 @@
 }
 .sobreMi .subTitulo{
   margin-top: 0;
+}
+
+
+.sobreMi .subTitulo{
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.estudios{
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: minmax(200px, 20vw) 1fr;
+  min-height: 95vh;
+  padding: 2.5vh;
+}
+
+.estudios .soft {
+  margin: 10vh 4vw;
+}
+
+.estudios .soft .logo {
+  width: 100%;
+  max-width: 250px;
+  min-width: 130px;
+}
+
+.estudios .hard{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 5vw;
+  padding-right: 5vw;
+  flex-wrap: wrap;  
+}
+
+.estudios .hard .institucion{
+  display: grid;
+  grid-template-rows: calc(auto + 1vh) 3vh auto;
+  grid-template-columns: 1fr;
+  column-gap: calc(50px + 1vw);
+  justify-items: center;
+  align-items: center;
+  width: 20vw;
+  min-width: 300px;
+}
+.estudios .hard .institucion .texto{
+  text-align: left;
+  max-width: 70vw;
+}
+.estudios .hard .institucion .logoInsti{
+  width: 40vw;
+  max-width: 300px;
+}
+.estudios .hard .jap .logoInsti{
+  margin: 60px 0;
+}
+
+.proyectos {
+  background-color: #EF626C;
+  min-height: 95vh;
+  padding: 2.5vh;
+  text-align: center;
+}
+.proyectos .proyectoTitle {
+  margin: 5vh 0;
+}
+
+@media (max-width: 750px) {
+  .estudios{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .estudios .hard{
+    flex-direction: column;
+    gap: 5vw;
+    padding-right: 5vw;
+  }
+  .estudios .soft{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 5vw;
+    flex-wrap: wrap;  
+    width: 80vw;
+    margin: 0;
+    margin-top: 10vh;
+  }
 }
 
 @media (max-width: 500px) {
