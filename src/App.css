@@ -91,14 +91,17 @@
   grid-template-columns: minmax(200px, 20vw) 1fr;
   min-height: 95vh;
   padding: 2.5vh;
+  column-gap: 30px;
 }
 
 .estudios .soft {
   margin: 10vh 4vw;
+  width: 18vw;
+  min-width: 200px;
 }
 
 .estudios .soft .logo {
-  width: 100%;
+  width: 90%;
   max-width: 250px;
   min-width: 130px;
 }
@@ -110,7 +113,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 5vw;
+  gap: 3vw;
   padding-right: 5vw;
   flex-wrap: wrap;  
 }
@@ -118,20 +121,19 @@
 .estudios .hard .institucion{
   display: grid;
   grid-template-rows: calc(auto + 1vh) 3vh auto;
-  grid-template-columns: 1fr;
   column-gap: calc(50px + 1vw);
   justify-items: center;
   align-items: center;
-  width: 20vw;
-  min-width: 300px;
+  width: 19vw;
+  min-width: 200px;
 }
 .estudios .hard .institucion .texto{
   text-align: left;
   max-width: 70vw;
 }
 .estudios .hard .institucion .logoInsti{
-  width: 40vw;
-  max-width: 300px;
+  width: 19vw;
+  min-width: 200px;
 }
 .estudios .hard .jap .logoInsti{
   margin: 60px 0;
@@ -163,12 +165,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    padding-right: 5vw;
     flex-wrap: wrap;  
-    width: 80vw;
+    width: 100%;
     margin: 0;
     margin-top: 10vh;
+    margin-bottom: 50px;
+  }
+  .estudios .hard .institucion{
+    margin-bottom: 50px;
+  }
+  .estudios .hard .jap .logoInsti{
+    margin: 0;
   }
 }
 
