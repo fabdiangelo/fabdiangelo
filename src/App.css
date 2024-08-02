@@ -149,6 +149,13 @@
   margin: 5vh 0;
 }
 
+.listaProyectos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 53px;
+}
+
 @media (max-width: 750px) {
   .estudios{
     display: grid;

@@ -68,7 +68,7 @@ button:focus-visible {
 } */
  
 .titulo{
-  font-family: Hind;
+  font-family: "Hind";
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
@@ -76,15 +76,15 @@ button:focus-visible {
 }
 
 .subTitulo{
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 32px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: normal;
 }
 
 .texto{
-  font-family: Hind;
+  font-family: "Hind";
   font-size: 16px;
   font-style: normal;
   font-weight: 300;

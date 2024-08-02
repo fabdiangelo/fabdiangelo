@@ -9,7 +9,6 @@ import nodeLogo from '/NodeJS.svg'
 import cppLogo from '/CPlusPlus.svg'
 import mongoLogo from '/MongoDB.svg'
 import htmlLogo from '/HTML.svg'
-import cssLogo from '/CSS.svg'
 import fccLogo from '/FreeCodeCamp.svg'
 import utecLogo from '/UTEC.svg'
 import japLogo from '/JAP.svg'
@@ -76,7 +75,7 @@ function App() {
     	<img src={proyectoTitle} alt='Proyectos' className='proyectoTitle' />
     	<section className='listaProyectos'>
         	<PreviewProjecto />
-        	<PreviewProjecto />
+        	<PreviewProjecto title='Algo' descrip='Eu tristique arcu in, litora porttitor per etiam. Dis vulputate netus a pretium arcu maximus augue diam! Duis parturient congue vestibulum nec mollis volutpat. Eu sodales hac porttitor interdum litora; aliquet orci gravida. Quisque vehicula platea primis vulputate venenatis dis. Nostra at ac nisl maximus velit. Bibendum convallis est vestibulum condimentum ipsum vivamus sempe'/>
         	<PreviewProjecto />
       	</section>
     </section>
