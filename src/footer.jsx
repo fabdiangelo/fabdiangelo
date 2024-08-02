@@ -1,8 +1,24 @@
-function Footer ({button = true}) {
+import './footer.css'
+import logo from '/LogoAlt90.svg'
+
+function Footer ({mail = false}) {
     return (
-        <>
-        {button && <button>Hi</button>}
-        </>
+        <footer className='footer'>
+            <section className='contacto'>
+                <h3 className='subTitulo'>Contacto</h3>
+                <p className='texto'>
+                    gmail@gmail.com
+                    <br />    
+                    linkedin
+                    <br />    
+                    github
+                </p>
+            </section>
+            <section className='mail'>
+                {!mail && <button className='sendMail'>Send me a mail</button>}
+                <a href='#'><img alt='Link a inicio' src={logo}></img></a>
+            </section>
+        </footer>
     )
 }
 

@@ -1,0 +1,37 @@
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #087F8C;
+    color: #fff;
+    position: relative;
+}
+
+.contacto {
+    padding: 50px 0 0 56px;
+    margin: 0;
+}
+.contacto .subTitulo, .contacto .texto{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.mail {
+    position: absolute;
+    top: 55px;
+    right: 90px;
+    width: 350px;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mail .sendMail{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #212145;
+    color: #fff;
+    margin-right: 60px;
+    border: none;
+}
