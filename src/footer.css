@@ -49,21 +49,31 @@ a.logo img::selection{
 }
 @media (max-width: 750px) {
     .footer{
-        width: 100%;
         min-height: 200px;
-        background-color: #087F8C;
-        color: #fff;
+        height: auto;
     }
 
     .mail {
-        width: 350px;
-        text-align: right;
+        max-width: 100%;
+        text-align: center;
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: unset;
+        top:unset;
+        right: unset;
+    }
+    .mail .sendMail{
+        margin: 30px;
     }
     .contacto {
         padding: 50px 0 0 56px;
         margin: 0;
+    }
+    .contacto .subTitulo, .contacto .texto{
+        margin: 0;
+        padding: 15px;
     }
 }
