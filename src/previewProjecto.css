@@ -28,7 +28,13 @@
     grid-row: 1;
     margin-bottom: 0;
 }
-
+img.preview::selection, a.arrow img::selection{
+  background:#0000;
+}
+.contenedor .subTitulo::selection, .contenedor .texto::selection{
+    color: #212145;
+    background-color: #fff;
+}
 @media (max-width: 500px) {
     .contenedor{
         display: flex;

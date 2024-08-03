@@ -35,3 +35,35 @@
     margin-right: 60px;
     border: none;
 }
+
+a.logo img::selection{
+    background:#0000;
+}
+.contacto .subTitulo::selection, .contacto .texto::selection, .contacto br::selection{
+    color: #087F8C;
+    background-color: #fff;
+}
+.mail .sendMail::selection{
+    color: #212145;
+    background-color: #fff;
+}
+@media (max-width: 750px) {
+    .footer{
+        width: 100%;
+        min-height: 200px;
+        background-color: #087F8C;
+        color: #fff;
+    }
+
+    .mail {
+        width: 350px;
+        text-align: right;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .contacto {
+        padding: 50px 0 0 56px;
+        margin: 0;
+    }
+}

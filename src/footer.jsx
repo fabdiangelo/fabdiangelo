@@ -4,6 +4,10 @@ import logo from '/LogoAlt90.svg'
 function Footer ({mail = false}) {
     return (
         <footer className='footer'>
+            <section className='mail'>
+                {!mail && <button className='sendMail'>Send me a mail</button>}
+                <a href='#' className='logo'><img alt='Link a inicio' src={logo}></img></a>
+            </section>
             <section className='contacto'>
                 <h3 className='subTitulo'>Contacto</h3>
                 <p className='texto'>
@@ -13,10 +17,6 @@ function Footer ({mail = false}) {
                     <br />    
                     github
                 </p>
-            </section>
-            <section className='mail'>
-                {!mail && <button className='sendMail'>Send me a mail</button>}
-                <a href='#'><img alt='Link a inicio' src={logo}></img></a>
             </section>
         </footer>
     )

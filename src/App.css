@@ -33,6 +33,10 @@
   text-align: center;
 }
 
+.bienvenida .nombre::selection{
+  background:#000;
+  color:#DCE0E0;
+}
 .bienvenida .logos{
   padding: 0;
   margin: 0;
@@ -75,14 +79,14 @@
 }
 .sobreMi .subTitulo{
   margin-top: 0;
-}
-
-
-.sobreMi .subTitulo{
   font-size: 23px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+.sobreMi *::selection{
+  background-color: #000;
+  color: #EF626C;
 }
 
 .estudios{
@@ -138,6 +142,10 @@
 .estudios .hard .jap .logoInsti{
   margin: 60px 0;
 }
+.estudios ::selection{
+  color:#fff;
+  background-color: #000;
+}
 
 .proyectos {
   background-color: #EF626C;
@@ -156,6 +164,9 @@
   row-gap: 53px;
 }
 
+img.logo::selection, img.logoInsti::selection, img.lenguaje::selection, img.proyectoTitle::selection{
+  background:#0000;
+}
 @media (max-width: 750px) {
   .estudios{
     display: grid;
