@@ -1,0 +1,67 @@
+.link{
+    position: absolute;
+    top: 22px;
+    left: 27px;
+}
+main.mail{
+    min-height: 87vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mail .presentacion{
+    text-align: center;
+    margin: 110px 0 84px 0;
+}
+.mail .presentacion .titulo{
+    margin: 0;
+}
+.mail .presentacion .subTitulo{
+    color: #087F8C;
+    margin: -15px 0 0 0;
+}
+
+.mail .form{
+    width: 820px;
+    max-width: 70vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vw;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+}
+
+.mail .form .entrada{
+    display: flex;
+    flex-direction: column;
+}
+.mail .form .entrada input{
+    border: 0;
+    border-bottom: 3px solid #087F8C;
+    width: 350px;
+    min-width: 250px;
+    max-width: 35vw;
+    height: 50px;
+    font-size: 22px;
+    text-indent: 5px;
+}
+
+.mail .form .entrada textarea{
+    border: 3px solid #087F8C;
+    width: 820px;
+    max-width: 70vw;
+    min-width: 250px;
+    height: 170px;
+    border-radius: 20px;
+    resize: none;
+    font-size: 26px;
+}
+.mail .form button.encabezado{
+    position: absolute;
+    bottom: 40px;
+    right: -30px;
+    
+}

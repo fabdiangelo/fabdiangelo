@@ -5,7 +5,7 @@ function Footer ({mail = false}) {
     return (
         <footer className='footer'>
             <section className='mail'>
-                {!mail && <button className='sendMail'>Send me a mail</button>}
+                {!mail && <button className='sendMail encabezado'>Send me a mail</button>}
                 <a href='#' className='logo'><img alt='Link a inicio' src={logo}></img></a>
             </section>
             <section className='contacto'>

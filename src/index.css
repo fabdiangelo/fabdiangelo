@@ -90,10 +90,31 @@ html, body {
   line-height: normal;
 }
 
+.encabezado{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
 .texto{
   font-family: "Hind";
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+
+button{
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #212145;
+  color: #fff;
+  border: none;
+}
+button::selection{
+  color: #212145;
+  background-color: #fff;
 }

@@ -15,25 +15,18 @@
     margin-bottom: 15px;
 }
 
-.mail {
+.footer .mail {
     position: absolute;
     top: 55px;
     right: 90px;
-    width: 350px;
     text-align: right;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.mail .sendMail{
-    width: 200px;
-    height: 50px;
-    border-radius: 20px;
-    background-color: #212145;
-    color: #fff;
+.footer .mail .sendMail{
     margin-right: 60px;
-    border: none;
 }
 
 a.logo img::selection{
@@ -43,17 +36,14 @@ a.logo img::selection{
     color: #087F8C;
     background-color: #fff;
 }
-.mail .sendMail::selection{
-    color: #212145;
-    background-color: #fff;
-}
+
 @media (max-width: 750px) {
     .footer{
         min-height: 200px;
         height: auto;
     }
 
-    .mail {
+    .footer .mail {
         max-width: 100%;
         text-align: center;
         display: flex;
@@ -65,8 +55,12 @@ a.logo img::selection{
         top:unset;
         right: unset;
     }
-    .mail .sendMail{
+    .footer .mail .sendMail{
         margin: 30px;
+        margin-bottom: 0;
+    }
+    .footer  .mail .logo{
+        margin-top: 30px;
     }
     .contacto {
         padding: 50px 0 0 56px;
